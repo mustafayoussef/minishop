@@ -1,0 +1,17 @@
+<div class="product">
+    <div class="grid">
+        <div class="col-12 md:col-6 lg:col-6">
+            <img [src]="product.image" alt="">
+        </div>
+        <div class="col-12 md:col-6 lg:col-6">
+            <div class="product-details">
+                <h2 class="title">{{product.title}}</h2>
+                <span class="price">{{product.price | currency}}</span>
+                <span class="category">{{product.category}}</span>
+                <span class="rating-rate">{{product.rating.rate}}</span>
+                <span class="rating-count">{{product.rating.count}}</span>
+                <p class="desc">{{product.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>

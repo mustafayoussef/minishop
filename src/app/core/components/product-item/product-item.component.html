@@ -1,0 +1,7 @@
+<p-card [header]="Product.title" subheader="{{Product.price | currency}}" class="card" styleClass="p-card-shadow card">
+    <ng-template pTemplate="header">
+        <a [routerLink]="['product',Product.id]">
+            <img alt="Card" [src]="Product.image">
+        </a>
+    </ng-template>
+</p-card>

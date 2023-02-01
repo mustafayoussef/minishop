@@ -1,0 +1,31 @@
+::ng-deep p-card.card {
+    width: 360px !important;
+    // height: 525px !important;
+    
+    img {
+        width: 100%;
+        border-radius: 5px;
+        height: 375px;
+        object-fit: cover;
+
+        @media screen and (min-width: 320px) and (max-width: 480px) {
+            height: auto;
+        }
+    }
+    .p-card-title {
+        font-size: 1.3rem;
+    }
+    .p-card-body{
+        height: 120px;
+    }
+
+    .desc {
+        margin: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

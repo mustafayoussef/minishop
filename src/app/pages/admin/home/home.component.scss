@@ -1,0 +1,52 @@
+::ng-deep .add-product {
+    .form-product {
+        text-align: center;
+
+        .p-float-label {
+            margin-bottom: 1rem;
+
+            .p-inputtext {
+                width: 500px;
+            }
+        }
+    }
+
+    .btn-product {
+
+        display: flex;
+        flex-direction: row-reverse;
+        width: 75vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
+
+::ng-deep .p-dialog {
+    min-width: 660px;
+    min-height: 600px;
+
+    .p-dialog-title {
+        margin: auto !important;
+    }
+
+    .ng-tns-c143-0.p-dialog-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+}
+
+::ng-deep #pr_id_2 {
+    width: 75vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+::ng-deep .p-datatable .p-datatable-thead>tr>th {
+    padding: 1.5rem 0.75rem;
+}
+
+img {
+    height: 80px;
+    width: 58px;
+}

@@ -1,0 +1,14 @@
+<header>
+    <nav class="navbar">
+        <a routerLink="/" class="navbar-logo">
+            <span class="logo">Shop</span>
+
+        </a>
+        <ul class="navbar-links">
+            <li><a *ngIf='authService.isAuthenticated["_value"]' (click)="home()">Home</a></li>
+            <li><a *ngIf='!authService.isAuthenticated["_value"]' routerLink="/login">Login</a></li>
+            <li><a *ngIf='authService.isAuthenticated["_value"]' (click)="logout()">Logout</a></li>
+            <!-- <li><a routerLink="/genres">Genres</a></li> -->
+        </ul>
+    </nav>
+</header>

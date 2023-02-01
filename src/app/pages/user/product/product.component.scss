@@ -1,0 +1,16 @@
+.product{
+    padding: 4rem 10rem;
+
+    img{
+        width: auto;
+        border-radius: 10px;
+        height: auto;
+        max-height: 720px;
+        box-shadow: 5px 6px 9px 0px grey;
+    }
+
+    .product-details{
+        display: flex;
+        flex-direction: column;
+    }
+}
